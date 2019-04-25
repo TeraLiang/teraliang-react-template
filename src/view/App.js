@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Button,Input } from 'antd';
 import '../style/App.css';
+import Header from '../components/PublicHeader/index'
+import Nav from '../components/PublicNav/index'
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <Button disabled>Button</Button>
-        <Input placeholder="Basic usage" />
+        <div className="App__header"><Header></Header></div>
+        <div className="App__nav"><Nav></Nav></div>
       </div>
     )
   }
