@@ -1,5 +1,22 @@
 @import '~antd/dist/antd.css';
 
+.App{
+  padding: 64px 0 0 256px;
+}
+
 .App__header{
-  padding-bottom: 4px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.App__nav{
+  position: fixed;
+  left: 0;
+  top: 64px;
+}
+
+.App__content{
+  width: calc(100vw - 256px);
 }

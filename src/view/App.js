@@ -9,6 +9,7 @@ class App extends Component{
       <div className="App">
         <div className="App__header"><Header></Header></div>
         <div className="App__nav"><Nav></Nav></div>
+        <div className="App__content">内容区域</div>
       </div>
     )
   }
